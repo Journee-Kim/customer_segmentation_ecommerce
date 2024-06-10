@@ -1,0 +1,1 @@
+This project explores advanced techniques like K-means clustering and machine learning algorithms to gain deeper customer insights from big data, and will classify customers based on clustering results allowing businesses to develop more targeted strategies and achieve sustainable growth.
