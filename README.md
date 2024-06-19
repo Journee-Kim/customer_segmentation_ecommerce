@@ -116,11 +116,11 @@ The normalized confusion matrix expresses these counts as proportions relative t
 both matrices highlight the classifier's strong performance across all classes, with high numbers of true positives and minimal false positives and false negatives.
 
 
-a.	Precision: The precision measures the accuracy of positive predictions. For all classes, the precision is very high, ranging from 0.99 to 1.00. This indicates that when the classifier predicts a certain class, it is highly likely to be correct.
-b.	Recall: Recall, also known as sensitivity, measures the ability of the classifier to correctly identify all relevant instances. Like precision, recall is very high for all classes, ranging from 0.98 to 1.00. This indicates that the classifier effectively captures most instances of each class.
-c.	F1-score: The F1-score is the harmonic mean of precision and recall and provides a balance between the two metrics. Like precision and recall, the F1-score is also very high for all classes, ranging from 0.98 to 1.00. This indicates robust performance across all classes.
-d.	Accuracy: The overall accuracy of the classifier is 0.99, indicating that it correctly predicts the class for 99% of the instances in the dataset.
-e.	Cross-validation
+- Precision: The precision measures the accuracy of positive predictions. For all classes, the precision is very high, ranging from 0.99 to 1.00. This indicates that when the classifier predicts a certain class, it is highly likely to be correct.
+- Recall: Recall, also known as sensitivity, measures the ability of the classifier to correctly identify all relevant instances. Like precision, recall is very high for all classes, ranging from 0.98 to 1.00. This indicates that the classifier effectively captures most instances of each class.
+- F1-score: The F1-score is the harmonic mean of precision and recall and provides a balance between the two metrics. Like precision and recall, the F1-score is also very high for all classes, ranging from 0.98 to 1.00. This indicates robust performance across all classes.
+- Accuracy: The overall accuracy of the classifier is 0.99, indicating that it correctly predicts the class for 99% of the instances in the dataset.
+- Cross-validation
 
 
 ### Random Forest
@@ -134,9 +134,9 @@ The non-normalized confusion matrix displays the raw counts of predictions. For 
 The normalized confusion matrix expresses these counts as proportions relative to the true class sizes. For instance, in the normalized matrix, a value of 0.980 in row 1, column 1 indicates that 98.0% of actual class 0 instances were correctly predicted as class 0.
 
 
-a.	Precision: For class 0, the precision is 0.98, indicating that 98% of instances predicted as class 0 are class 0. Similarly, for classes 1, 2, and 3, the precision values are 0.95, 0.95, and 0.97, respectively.
-b.	Recall: Recall, or sensitivity, represents the proportion of actual instances that were correctly predicted by the model. For class 0, the recall is 0.98, meaning that 98% of actual class 0 instances were correctly predicted. The recall values for classes 1, 2, and 3 are 0.96, 0.97, and 0.88, respectively.
-c.	F1-score: The F1-score is the harmonic mean of precision and recall, providing a balance between them. The F1-scores for classes 0, 1, 2, and 3 are 0.98, 0.95, 0.96, and 0.92, respectively.
-d.	Accuracy: The overall accuracy of the model is 0.97, indicating that it correctly predicts the class for 97% of instances in the dataset.
-e.	Cross-validation
+- Precision: For class 0, the precision is 0.98, indicating that 98% of instances predicted as class 0 are class 0. Similarly, for classes 1, 2, and 3, the precision values are 0.95, 0.95, and 0.97, respectively.
+- Recall: Recall, or sensitivity, represents the proportion of actual instances that were correctly predicted by the model. For class 0, the recall is 0.98, meaning that 98% of actual class 0 instances were correctly predicted. The recall values for classes 1, 2, and 3 are 0.96, 0.97, and 0.88, respectively.
+- F1-score: The F1-score is the harmonic mean of precision and recall, providing a balance between them. The F1-scores for classes 0, 1, 2, and 3 are 0.98, 0.95, 0.96, and 0.92, respectively.
+- Accuracy: The overall accuracy of the model is 0.97, indicating that it correctly predicts the class for 97% of instances in the dataset.
+- Cross-validation
 
